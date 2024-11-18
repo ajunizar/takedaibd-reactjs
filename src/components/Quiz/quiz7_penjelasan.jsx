@@ -9,8 +9,8 @@ function Quiz7Penjelasan() {
 
     const navigate = useNavigate();
 
-    const handleOnClickGoToQuiz6 = () => {
-        window.location.href = '/quiz6'; // #54
+    const handleOnClickGoToQuiz7 = () => {
+        window.location.href = '/quiz7'; // #54
     };
     const handleOnClickGoToQuizEnd = () => {
         window.location.href = '/quiz-terima-kasih'; // #54
@@ -273,7 +273,7 @@ function Quiz7Penjelasan() {
                                 <img src={blankImage} alt="Polygon" style={{left:'14px',top:'15px'}} id="item222094" className="pageItem " data-src="assets/images/item_222094.png" />
                             </div>
                         </button>
-                        <button data-id="223702" name="icon back 67" onClick={handleOnClickGoToQuiz6} aria-label="icon back 67" id="item223702" className="pageItem has-down has-on ">
+                        <button data-id="223702" name="icon back 67" onClick={handleOnClickGoToQuiz7} aria-label="icon back 67" id="item223702" className="pageItem has-down has-on ">
                             <div className="pageItem state btn-off">
                                 <div alt="Oval" id="item223710" className="pageItem ">
                                     <svg version="1.1" width="70" height="70" >

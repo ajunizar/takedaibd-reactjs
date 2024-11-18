@@ -34,7 +34,25 @@ function Quiz7() {
         window.location.href = '/quiz7Penjelasan';
     }
 
+    const handleOnClickBenar = (event) => {
+        event.preventDefault();
+        jQuery("#item207157 video")[0].currentTime = 0;
+        jQuery("#item207157 video")[0].play();
+        jQuery("#item207147 audio")[0].currentTime = 0;
+        jQuery("#item207147 audio")[0].play();
+        go(event,[{n:1,link:1,id:206242,act:'hide'},{n:1,link:1,id:207238,act:'hide'}]);
+        go(event,[{n:1,link:1,id:207232,act:'play'},{n:1,link:1,id:206435,act:'play'},{n:1,link:1,id:220073,act:'play'},{n:1,id:219947,act:'play'}]);   
+    }
 
+    const handleOnClickSalah = (event) => {
+        event.preventDefault();
+        jQuery("#item207152 video")[0].currentTime = 0;
+        jQuery("#item207152 video")[0].play();
+        jQuery("#item207143 audio")[0].currentTime = 0;
+        jQuery("#item207143 audio")[0].play();
+        go(event,[{n:1,link:1,id:206435,act:'hide'},{n:1,link:1,id:207232,act:'hide'},{n:1,link:1,id:219947,act:'hide'}]); 
+        go(event,[{n:1,link:1,id:207238,act:'play'},{n:1,link:1,id:206242,act:'play'},{n:1,id:226741,act:'play'}]);    
+    }
     //useEffect(() => {
     /*const reloadCount = sessionStorage.getItem('reloadCountHomepage2');
     if (reloadCount == null) {
@@ -105,7 +123,7 @@ function Quiz7() {
                             <div id="item206159" alt="Rectangle" className="pageItem ">&nbsp;</div>
                             <img src={blankImage} alt="Benar" style={{left:'174px',top:'17px'}} id="item206188" className="pageItem " data-src="assets/images/item_206188.png" />
                         </div>
-                        <button data-ani="fadein-207242 1s linear 1" data-id="207242" id="item207242" data-hidestart="1" className="pageItem has-on has-down hidden" name="kotak 1" onclick="go(event,[{n:1,link:1,id:207232,act:'play'},{n:1,link:1,id:206435,act:'play'},{n:1,link:1,id:220073,act:'play'},{n:1,id:219947,act:'play'}]);" data-click-play="207157,207147" data-click-hide="206242,207238" data-click-show="206435,207232" aria-label="kotak 1">
+                        <button data-ani="fadein-207242 1s linear 1" data-id="207242" id="item207242" data-hidestart="1" className="pageItem has-on has-down hidden" name="kotak 1" onClick={handleOnClickBenar} aria-label="kotak 1">
                             <div className="pageItem state btn-off">
                                 <div id="item206160" alt="Rectangle" className="pageItem ">&nbsp;</div>
                             </div>
@@ -120,7 +138,7 @@ function Quiz7() {
                             <div id="item206163" alt="Rectangle" className="pageItem ">&nbsp;</div>
                             <img src={blankImage} alt="Salah" style={{left:'174px',top:'17px'}} id="item206211" className="pageItem " data-src="assets/images/item_206211.png" />
                         </div>
-                        <button data-ani="fadein-207240 1s linear 1" data-id="207240" id="item207240" data-hidestart="1" className="pageItem has-on has-down hidden" name="kotak 2" onclick="go(event,[{n:1,link:1,id:207238,act:'play'},{n:1,link:1,id:206242,act:'play'},{n:1,id:226741,act:'play'}]);" data-click-play="207152,207143" data-click-hide="206435,207232" data-click-show="206242,207238" aria-label="kotak 2">
+                        <button data-ani="fadein-207240 1s linear 1" data-id="207240" id="item207240" data-hidestart="1" className="pageItem has-on has-down hidden" name="kotak 2" onClick={handleOnClickSalah} aria-label="kotak 2">
                             <div className="pageItem state btn-off">
                                 <div id="item206164" alt="Rectangle" className="pageItem ">&nbsp;</div>
                             </div>
@@ -397,7 +415,7 @@ function Quiz7() {
                                 <img src={blankImage} alt="Polygon" id="item207236" className="pageItem " data-src="assets/images/item_207236.png" />
                             </div>
                         </button>
-                        <div data-ani="flyinfrombottom-220073 0.5s cubic-bezier(.2,.6,.35,1) 1" data-id="220073" id="item220073" data-hidestart="1" className="pageItem group hidden" data-hideend="1" alt="mata" style={{left:'445px',top:'869px',width:' 26px',height:'5px'}}>
+                        <div data-ani="flyinfrombottom-220073 0.5s cubic-bezier(.2,.6,.35,1) 1" data-id="220073" id="item220073" data-hidestart="1" className="pageItem group hidden" alt="mata" style={{left:'445px',top:'869px',width:' 26px',height:'5px'}}>
                             <div alt="Group" id="item220074" className="pageItem group ">
                                 <div alt="Oval" id="item220075" className="pageItem ">
                                     <svg version="1.1" width="7" height="7" >
