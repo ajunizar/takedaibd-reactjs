@@ -51,7 +51,10 @@ function Homepage() {
                             <img src={blankImage} alt="Polygon" style={{left:'25px ',top:'17px '}} id="item420" className="pageItem " data-src="assets/images/item_420.png" />
                             <img src={blankImage} alt="Polygon" style={{left:'35px ',top:'17px '}} id="item421" className="pageItem " data-src="assets/images/item_421.png" />
                         </div>
-                        <img src={blankImage} data-ani="fadein-475 1s linear 1" data-id="475" id="item475" data-hidestart="1" className="pageItem hidden" alt="By Rare Disease Medical Team" style={{left:'98px',top:'382px'}} data-src="assets/images/item_475.png" />
+                        {/*<img src={blankImage} data-ani="fadein-475 1s linear 1" data-id="475" id="item475" data-hidestart="1" className="pageItem hidden" alt="By Rare Disease Medical Team" style={{left:'98px',top:'382px'}} data-src="assets/images/item_475.png" />*/}
+                        <div  data-ani="fadein-475 1s linear 1" data-id="475" id="item475" data-hidestart="1" className="pageItem hidden" alt="By Rare Disease Medical Team" style={{left:'98px',top:'382px'}} >
+                        Medical Team
+                        </div>
                         <img src={blankImage} data-ani="fadein-497 1s linear 1" data-id="497" id="item497" data-hidestart="1" className="pageItem hidden" alt="IBD 01" style={{left:'100px',top:'100px'}} data-src="assets/images/item_497.png" />
                         <img src={blankImage} data-ani="flyinfromleft-519 1s cubic-bezier(.2,.6,.35,1) 1" data-id="519" id="item519" data-hidestart="1" className="pageItem hidden" alt="Kenali Inflammatory Bowel Disease (IBD) Lebih Dekat" style={{left:'93px',top:'168px'}} data-src="assets/images/item_519.png" />
                         <img src={blankImage} alt="VV MED 11224 // 25 Oct 23" style={{left:'28px ',top:'1042px '}} id="item541" className="pageItem " data-src="assets/images/item_541.png" />

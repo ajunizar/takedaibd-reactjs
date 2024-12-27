@@ -1,3 +1,69 @@
+@font-face {
+	font-family: 'NotoSans-Regular';
+	src: url('../fonts/NotoSans-Regular.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Nunito-Black';
+	src: url('../fonts/Nunito-Black.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Nunito-Light';
+	src: url('../fonts/Nunito-Light.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'Nunito-LightItalic';
+	src: url('../fonts/Nunito-LightItalic.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+#item475 {
+	font-family: 'Nunito-LightItalic';
+	font-size:22pt;
+	line-height:33.6pt;
+	color:#fff;
+}
+
+#item1388 {
+	font-family: 'Nunito-Black';
+	font-size:70pt;
+	line-height:50pt;
+	color:#fff;
+}
+
+#item78991{
+	font-family: 'Nunito-Light';
+	font-size:22pt;
+	line-height:26pt;
+	color:#fff;
+}
+
+#item78991 sup {
+    vertical-align: super !important;
+    font-size: 13pt !important;
+}
+
+#item203983{
+	font-family:"NotoSans-Regular";
+	font-size:20pt;
+	line-height:35px;
+	letter-spacing:1px;
+	width:500px !important;
+	color:#fff;
+}
+#item203983 span {
+	font-style: italic;
+}
+
 /* 	Begin Modified Meyer Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,

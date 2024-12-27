@@ -222,7 +222,8 @@ function Homepage3() {
                             <img src={blankImage} alt="Polygon" style={{left:'25px',top:'17px'}} id="item1367" className="pageItem " data-src="assets/images/item_1367.png" />
                             <img src={blankImage} alt="Polygon" style={{left:'35px',top:'17px'}} id="item1368" className="pageItem " data-src="assets/images/item_1368.png" />
                         </div>
-                        <img src={blankImage} data-ani="fadein-1388 1s linear 1" data-id="1388" id="item1388" data-hidestart="1" className="pageItem hidden" alt="Introduksi" style={{left:'95px',top:'155px '}} data-src="assets/images/item_1388.png" />
+                        {/*<img src={blankImage} data-ani="fadein-1388 1s linear 1" data-id="1388" id="item1388" data-hidestart="1" className="pageItem hidden" alt="Introduksi" style={{left:'95px',top:'155px '}} data-src="assets/images/item_1388.png" />*/}
+                        <div data-ani="fadein-1388 1s linear 1" data-id="1388" id="item1388" data-hidestart="1" className="pageItem hidden" alt="Introduksi" style={{left:'95px',top:'155px '}} >Pendahuluan</div>
                         <img src={blankImage} data-ani="zoomin2d-1411 0.5s linear 1" data-id="1411" id="item1411" data-hidestart="1" className="pageItem hidden" alt="Selamat Datang!" style={{left:'910px',top:'525px'}} data-src="assets/images/item_1411.png" />
                         <img src={blankImage} data-ani="fadein-1433 1s linear 1" data-id="1433" id="item1433" data-hidestart="1" className="pageItem hidden" alt="Modul ini merupakan modul interaktif, dimana kamu dapat memilih topik yang ingin kamu pelajari dengan meng klik judul..." style={{left:'910px',top:'653px'}} data-src="assets/images/item_1433.png" />
                         <div alt="Takeda Indonesia, 202" style={{left:'1885px',top:'913px'}} id="item1555" className="pageItem group ">

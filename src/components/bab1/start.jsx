@@ -104,7 +104,12 @@ function Bab1Awal() {
                         <img src={blankImage} data-ani="fadein-2208 0.5s linear 1" data-id="2208" id="item2208" data-hidestart="1" className="pageItem hidden" alt="Inflamasi kronis pada kolon dan rektum.3 " style={{ left: '1257px', top: '846px' }} data-src="assets/images/item_2208.png" />
                         <img src={blankImage} data-ani="fadein-2230 1s linear 1" data-id="2230" id="item2230" data-hidestart="1" className="pageItem hidden" alt="Bab 1" style={{ left: '98px', top: '231px' }} data-src="assets/images/item_2230.png" />
                         <img src={blankImage} data-ani="fadein-2252 1s linear 1" data-id="2252" id="item2252" data-hidestart="1" className="pageItem hidden" alt="Inflammatory Bowel Disease (IBD) adalah peradangan/inflamasi saluran cerna yang bersifat kronis, progresif dan kambuh..." style={{ left: '100px', top: '370px' }} data-src="assets/images/item_2252.png" />
-                        <img src={blankImage} data-ani="fadein-78991 1s linear 1" data-id="78991" id="item78991" data-hidestart="1" className="pageItem hidden" alt="IBD tidak dapat benar benar disembuhkan, namun penderitanya dapat mencapai remisi melalui pengobatan yang tepat.2" style={{ left: '100px', top: '560px' }} data-src="assets/images/item_78991.png" />
+                        {/*<img src={blankImage} data-ani="fadein-78991 1s linear 1" data-id="78991" id="item78991" data-hidestart="1" className="pageItem hidden" alt="IBD tidak dapat benar benar disembuhkan, namun penderitanya dapat mencapai remisi melalui pengobatan yang tepat.2" style={{ left: '100px', top: '560px' }} data-src="assets/images/item_78991.png" />*/}
+                        <div data-ani="fadein-78991 1s linear 1" data-id="78991" id="item78991" data-hidestart="1" className="pageItem hidden" alt="IBD tidak dapat benar benar disembuhkan, namun penderitanya dapat mencapai remisi melalui pengobatan yang tepat.2" style={{ left: '100px', top: '560px' }} data-src="assets/images/item_78991.png">
+                            IBD tidak dapat disembuhkan, namun<br />
+                            penderitanya dapat mencapai remisi<br />
+                            melalui pengobatan yang tepat.<sup>2</sup>
+                        </div>
                         <div alt="Takeda Indonesia, 202" style={{ left: '1885px', top: '913px' }} id="item2285" className="pageItem group ">
                             <img src={blankImage} alt="Takeda Indonesia, 2024" style={{ left: '1px' }} id="item2305" className="pageItem " data-src="assets/images/item_2305.png" />
                             <div alt="Group" style={{ top: '132px' }} id="item2308" className="pageItem group ">

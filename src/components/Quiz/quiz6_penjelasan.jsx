@@ -65,7 +65,11 @@ function Quiz6Penjelasan() {
                         <div id="item203295" alt="Rectangle" className="pageItem ">&nbsp;</div>
                         <div data-ani="flyinfromleft-204637 0.5s cubic-bezier(.2,.6,.35,1) 1" data-id="204637" id="item204637" data-hidestart="1" className="pageItem group hidden" alt="penjelasan" style={{left:'801px',top:'497px',width:' 483px',height:'247px'}}>
                             <div id="item203964" alt="Rectangle" className="pageItem ">&nbsp;</div>
-                            <img src={blankImage} alt="Direkomendasikan sebagai pemeliharaan remisi KU dan PC oleh Konsensus Nasional Penatalaksanaan IBD maupun European Cr..." style={{left:'26px',top:'19px'}} id="item203983" className="pageItem " data-src="assets/images/item_203983.png" />
+                            {/*<img src={blankImage} alt="Direkomendasikan sebagai pemeliharaan remisi KU dan PC oleh Konsensus Nasional Penatalaksanaan IBD maupun European Cr..." style={{left:'26px',top:'19px'}} id="item203983" className="pageItem " data-src="assets/images/item_203983.png" />*/}
+                            <div alt="Direkomendasikan sebagai pemeliharaan remisi KU dan PC oleh Konsensus Nasional Penatalaksanaan IBD maupun European Cr..." style={{left:'26px',top:'19px'}} id="item203983" className="pageItem ">
+                                Direkomendasikan sebagai<br />pemeliharaan remisi KU dan<br />PC oleh Konsensus Nasional<br />Penatalaksanaan IBD maupun<br />
+                                <span>European Crohn's and Colitis<br />Organization</span> (ECCO) 2020
+                            </div>
                         </div>
                         <div data-ani="flyinfromleft-204631 0.5s cubic-bezier(.2,.6,.35,1) 1" data-id="204631" id="item204631" data-hidestart="1" className="pageItem group hidden" alt="line" style={{left:'686px',top:'476px',width:' 102px',height:'303px'}}>
                             <img src={blankImage} alt="GraphicLine" style={{height:' 5px'}} id="item203965" className="pageItem " data-src="assets/images/item_203965.png" />

@@ -139,6 +139,12 @@ function Quiz1() {
     const handleOnClickCekPenjelasan = (event) => {
         window.location.href = '/quiz1Penjelasan';
     }
+
+    setTimeout(function() {
+        // Trigger animation or any other action
+        document.getElementById("item1850400").classList.remove("hidden");
+    }, 3500);
+
     //useEffect(() => {
     /*const reloadCount = sessionStorage.getItem('reloadCountHomepage2');
     if (reloadCount == null) {
@@ -376,6 +382,7 @@ function Quiz1() {
                         <img src={blankImage} data-ani="flyinfrombottom-184993 0.2s cubic-bezier(.2,.6,.35,1) 1" data-id="184993" id="item184993" data-hidestart="1" className="pageItem hidden" alt="Skipped lession " style={{ left: '800px', top: '395px' }} data-src="assets/images/item_184993.png" />
                         <img src={blankImage} data-ani="flyinfrombottom-185016 0.2s cubic-bezier(.2,.6,.35,1) 1" data-id="185016" id="item185016" data-hidestart="1" className="pageItem hidden" alt="Terjadi dimana saja " style={{ left: '790px', top: '309px' }} data-src="assets/images/item_185016.png" />
                         <img src={blankImage} data-ani="fadein-185040 1s linear 1" data-id="185040" id="item185040" data-hidestart="1" className="pageItem hidden" alt="KUIS 1" style={{ left: '712px', top: '157px' }} data-src="assets/images/item_185040.png" />
+                        <img src={blankImage} data-ani="fadein-1850400 5s linear 1" data-id="1850400" id="item1850400" data-hidestart="1" className="pageItem hidden" alt="KUIS 1" style={{ left: '366px', top: '137px' }} data-src="assets/images/Kuis1_question.png" />
                         <button data-ani="flyinfrombottom-190456 1s cubic-bezier(.2,.6,.35,1) 1" data-id="190456" id="item190456" data-hidestart="1" className="pageItem hidden" name="jawaban benar" aria-label="jawaban benar">
                             <div className="pageItem state btn-off">
                                 <div alt="Oval" style={{ top: '53px' }} id="item189952" className="pageItem ">

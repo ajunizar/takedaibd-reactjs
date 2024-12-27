@@ -90,9 +90,9 @@ function App() {
     
     var perfEntries = performance.getEntriesByType("navigation");
     
-    if (perfEntries[0].type === "reload" || !referrer) {
+    /*if (perfEntries[0].type === "reload" || !referrer) {
         window.location.href = '/';
-    }
+    }*/
 
     return (
         <div>
