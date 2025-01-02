@@ -109,7 +109,10 @@ function Bab4Awal() {
                         </div>
                         <img src={blankImage} data-ani="fadein-7837 1s linear 1" data-id="7837" id="item7837" data-hidestart="1" className="pageItem hidden" alt="Tanda & Gejala IBD" style={{left:'99px',top:'271px'}} data-src="assets/images/item_7837.png" />
                         <img src={blankImage} data-ani="fadein-7859 1s linear 1" data-id="7859" id="item7859" data-hidestart="1" className="pageItem hidden" alt="Bab 4" style={{left:'101px',top:'231px'}} data-src="assets/images/item_7859.png" />
-                        <img src={blankImage} data-ani="fadein-7881 0.5s linear 1" data-id="7881" id="item7881" data-hidestart="1" className="pageItem hidden" alt="Disamping merupakan manifestasi klinis IBD yang paling umum terjadi:14,15 " style={{left:'100px',top:'474px'}} data-src="assets/images/item_7881.png" />
+                        {/*<img src={blankImage} data-ani="fadein-7881 0.5s linear 1" data-id="7881" id="item7881" data-hidestart="1" className="pageItem hidden" alt="Disamping merupakan manifestasi klinis IBD yang paling umum terjadi:14,15 " style={{left:'100px',top:'474px'}} data-src="assets/images/item_7881.png" />*/}
+                        <div data-ani="fadein-7881 0.5s linear 1" data-id="7881" id="item7881" data-hidestart="1" className="pageItem hidden" alt="Disamping merupakan manifestasi klinis IBD yang paling umum terjadi:14,15 " style={{left:'100px',top:'474px'}}  >
+                            Berikut ini adalah manifestasi klinis IBD yang paling umum terjadi
+                        </div>
                         <button data-id="104462" name="icon back 13" onClick={handleOnClickPreviousPage} aria-label="icon back 13" id="item104462" className="pageItem has-down has-on ">
                             <div className="pageItem state btn-off">
                                 <div alt="Oval" id="item104468" className="pageItem ">

@@ -79,6 +79,11 @@ function Bab2P3() {
                             <img src={blankImage} alt="Merasa bahwa IBD menghalangi penderitanya dalam membangun suatu hubungan erat" style={{top:'4px'}} id="item144808" className="pageItem " data-src="assets/images/item_144808.png" />
                             <img src={blankImage} alt="35%" style={{left:'989px'}} id="item144831" className="pageItem " data-src="assets/images/item_144831.png" />
                         </div>
+                        <div id="item85357aaa" className="pageItem" alt="Sound">
+                        Survei online diselesaikan oleh 4670 pasien IBD dari 25 negara (terinklusi dalam penelitian). Diantaranya 62% responden menderita PC, 33% KU, 
+                        dan sisanya adalah IBD tipe lain atau diagnosis belum terkonfirmasi. Responden : 66% Perempuan, 33% laki-laki, dan sisanya tidak menyatakan. 
+                        Mayoritas responden berusia 25-44 tahun.
+                        </div>
                         <div id="item85357" className="pageItem" style={{height:'60px',width:'60px',left:'846px',top:'1002px'}} alt="Sound">
                             <audio data-id="85357" className="mejs-no-controls" data-overlap="1">
                                 <source type="audio/mp3" src="assets/media/page 10-1.mp3" />
@@ -138,7 +143,7 @@ function Bab2P3() {
                                 <source type="audio/mp3" src="assets/media/page 10 FULL.mp3" />
                             </audio>
                         </div>
-                        <div id="item85398" alt="Rectangle" className="pageItem ">&nbsp;</div>
+                        {/*<div id="item85398" alt="Rectangle" className="pageItem ">&nbsp;</div>*/}
                         <button data-id="102102" name="icon back 9" onClick={handleOnClickPreviousPage} aria-label="icon back 9" id="item102102" className="pageItem has-down has-on ">
                             <div className="pageItem state btn-off">
                                 <div alt="Oval" id="item102109" className="pageItem ">

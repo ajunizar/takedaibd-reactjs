@@ -64,6 +64,24 @@
 	font-style: italic;
 }
 
+#item7881{
+	font-family:"NotoSans-Regular";
+	font-size:28pt;
+	line-height:46px;
+	color:#000;
+	width:500px !important;
+}
+
+#item85357aaa{
+	font-family:"NotoSans-Regular";
+	height: 100px !important;
+    width: 923px !important;
+    left: 563px !important;
+    top: 913px !important;
+	font-size:16pt;
+	line-height:30px;
+	color:#000;
+}
 /* 	Begin Modified Meyer Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
