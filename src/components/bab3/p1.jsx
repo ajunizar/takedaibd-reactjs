@@ -118,6 +118,15 @@ function Bab3P1() {
         }
     };
 
+    const applyItem6735 = (element) => {
+        if(element) {
+            element.style.setProperty('width', '1175px', 'important');
+            element.style.setProperty('height', '783px', 'important');
+            element.style.setProperty('left', '25px', 'important');
+            element.style.setProperty('top', '24px', 'important');
+        }
+    };
+    
     return (
         <div >
             <ul className="pages" id="slider">
@@ -202,7 +211,7 @@ function Bab3P1() {
                             <div className="pageItem state btn-off">
                                 <div id="item6732" alt="Rectangle" className="pageItem ">&nbsp;</div>
                                 {/*<img src={blankImage} alt="Rectangle" style={{left:'25px',top:'24px'}} id="item6735" className="pageItem " data-src="assets/images/item_6735.png" />*/}
-                                <img src={blankImage} alt="Rectangle" style={{left:'25px',top:'24px'}} id="item6735" className="pageItem " data-src="assets/images/item_6735.jpg" />
+                                <img src={blankImage} alt="Rectangle" ref={applyItem6735} id="item6735" className="pageItem " data-src="assets/images/item_6735.jpg" />
                             </div>
                         </button>
                         <div id="item148442" alt="Rectangle" className="pageItem ">&nbsp;</div>
