@@ -71,7 +71,8 @@ function Bab2Awal() {
                     <div className="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" data-ani-load="go({target:this},[{n:1,id:3155,act:'play'},{n:1,link:1,id:3268,act:'play'},{n:1,id:3246,sn:1,act:'play'}], 'pageload');" style={{width:'1920px',height:'1080px'}}>
                         <div id="item145587" className="pageItem" alt="Movie" style={{left:'100px',top:'189px'}}>
                             <video width="1920" height="1080" data-id="145587" data-autoplay="1" data-autodelay="0" data-stoplast="1" webkit-playsinline="playsinline" playsInline="playsinline" data-overlap="1" className="mejs-none">
-                                <source src="assets/media/WorldMap2.mp4" type="video/mp4" />
+                                {/*<source src="assets/media/WorldMap2.mp4" type="video/mp4" />*/}
+                                <source src="assets/media/WorldMap.mp4" type="video/mp4" />
                             </video>
                         </div>
                         <div id="item145573" className="pageItem" style={{height:'60px',width:'60px',left:'12px',top:'540px'}} alt="Sound">

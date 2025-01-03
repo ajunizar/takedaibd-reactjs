@@ -201,7 +201,8 @@ function Bab3P1() {
                         <button data-ani="flyinfromright-126020 1s cubic-bezier(.2,.6,.35,1) 1" data-id="126020" id="item126020" data-hidestart="1" className="pageItem hidden" name="gambar" aria-label="gambar">
                             <div className="pageItem state btn-off">
                                 <div id="item6732" alt="Rectangle" className="pageItem ">&nbsp;</div>
-                                <img src={blankImage} alt="Rectangle" style={{left:'25px',top:'24px'}} id="item6735" className="pageItem " data-src="assets/images/item_6735.png" />
+                                {/*<img src={blankImage} alt="Rectangle" style={{left:'25px',top:'24px'}} id="item6735" className="pageItem " data-src="assets/images/item_6735.png" />*/}
+                                <img src={blankImage} alt="Rectangle" style={{left:'25px',top:'24px'}} id="item6735" className="pageItem " data-src="assets/images/item_6735.jpg" />
                             </div>
                         </button>
                         <div id="item148442" alt="Rectangle" className="pageItem ">&nbsp;</div>
