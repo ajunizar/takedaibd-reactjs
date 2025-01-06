@@ -45,7 +45,7 @@ function Quiz4Penjelasan() {
                 <li className="page" data-name="59">
                     <div className="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" style={{width:'1920px',height:'1080px'}}>
                         <div id="item227507" className="pageItem" alt="Movie">
-                            <video width="1920" height="1400" data-id="227507" data-autoplay="1" data-autodelay="0" data-stoplast="1" data-nopause="1" webkit-playsinline="playsinline" playsinline="playsinline" data-overlap="1" className="mejs-none">
+                            <video width="1920" height="1400" data-id="227507" data-autoplay="1" data-autodelay="0" data-stoplast="1" data-nopause="1" webkit-playsinline="playsinline" playsInline="playsinline" data-overlap="1" className="mejs-none">
                                 <source src="assets/media/quiz 4 penjelasan.mp4" type="video/mp4" />
                             </video>
                         </div>

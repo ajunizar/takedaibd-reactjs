@@ -26,6 +26,20 @@
 	font-style:normal;
 }
 
+@font-face {
+	font-family: 'NotoSans-LightItalic';
+	src: url('../fonts/NotoSans-LightItalic.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'NotoSans-Black';
+	src: url('../fonts/NotoSans-Black.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
 #item475 {
 	font-family: 'Nunito-LightItalic';
 	font-size:22pt;
@@ -82,6 +96,21 @@
 	line-height:30px;
 	color:#000;
 }
+
+#item5840{
+	font-family: 'Nunito-LightItalic';
+	font-size:77pt;
+	line-height:127pt;
+	color:#f9e0c8;
+}
+
+#item5884{
+	font-family: 'NotoSans-Black';
+	font-size:30pt;
+	line-height:45pt;
+	color:#470000;
+}
+
 /* 	Begin Modified Meyer Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
