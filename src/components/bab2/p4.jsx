@@ -59,33 +59,69 @@ function Bab2P4() {
                         <div id="item116146" alt="Rectangle" className="pageItem ">&nbsp;</div>
                         <Navigation />
                         <img src={blankImage} data-ani="flyinfromtop-5620 1s cubic-bezier(.2,.6,.35,1) 1" data-id="5620" id="item5620" data-hidestart="1" className="pageItem hidden" alt="Beban Penderita IBD10" style={{left:'460px',top:'158px'}} data-src="assets/images/item_5620.png" />
-                        <img src={blankImage} data-ani="fadein-5642 0.5s linear 1" data-id="5642" id="item5642" data-hidestart="1" className="pageItem hidden" alt="Demam" style={{left:'234px',top:'385px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5642.png" />
-                        <img src={blankImage} data-ani="fadein-5664 0.2s linear 1" data-id="5664" id="item5664" data-hidestart="1" className="pageItem hidden" alt="Malu" style={{left:'68px',top:'493px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5664.png" />
+                        {/*<img src={blankImage} data-ani="fadein-5642 0.5s linear 1" data-id="5642" id="item5642" data-hidestart="1" className="pageItem hidden" alt="Demam" style={{left:'234px',top:'385px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5642.png" />*/}
+                        <div data-ani="fadein-5642 0.5s linear 1" data-id="5642" id="item5642" data-hidestart="1" className="pageItem hidden" alt="Demam" style={{left:'234px',top:'421px',mixBlendMode:'hard-light'}} >
+                        DEMAM
+                        </div>
+                        {/*<img src={blankImage} data-ani="fadein-5664 0.2s linear 1" data-id="5664" id="item5664" data-hidestart="1" className="pageItem hidden" alt="Malu" style={{left:'68px',top:'493px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5664.png" />*/}
+                        <div data-ani="fadein-5664 0.2s linear 1" data-id="5664" id="item5664" data-hidestart="1" className="pageItem hidden" alt="Malu" style={{left:'68px',top:'515px',mixBlendMode:'hard-light'}} >
+                            MALU
+                        </div>
                         <img src={blankImage} data-ani="fadein-5686 0.5s linear 1" data-id="5686" id="item5686" data-hidestart="1" className="pageItem hidden" alt="Depresi" style={{left:'394px',top:'350px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5686.png" />
                         <img src={blankImage} data-ani="fadein-5708 0.5s linear 1" data-id="5708" id="item5708" data-hidestart="1" className="pageItem hidden" alt="Malnutrisi" style={{left:'370px',top:'511px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5708.png" />
                         <img src={blankImage} data-ani="fadein-5730 0.5s linear 1" data-id="5730" id="item5730" data-hidestart="1" className="pageItem hidden" alt="BAB berdarah" style={{left:'1250px',top:'666px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5730.png" />
-                        <img src={blankImage} data-ani="fadein-5752 0.5s linear 1" data-id="5752" id="item5752" data-hidestart="1" className="pageItem hidden" alt="Kerusakan organ pencernaan" style={{left:'1228px',top:'422px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5752.png" />
+                        {/*<img src={blankImage} data-ani="fadein-5752 0.5s linear 1" data-id="5752" id="item5752" data-hidestart="1" className="pageItem hidden" alt="Kerusakan organ pencernaan" style={{left:'1228px',top:'422px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5752.png" />*/}
+                        <div data-ani="fadein-5752 0.5s linear 1" data-id="5752" id="item5752" data-hidestart="1" className="pageItem hidden" alt="Kerusakan organ pencernaan" style={{left:'1228px',top:'430px',mixBlendMode:'hard-light'}} >
+                            KERUSAKAN ORGAN<br />PERCERNAAN
+                        </div>
                         <img src={blankImage} data-ani="fadein-5774 0.5s linear 1" data-id="5774" id="item5774" data-hidestart="1" className="pageItem hidden" alt="Nyeri" style={{left:'1248px',top:'486px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5774.png" />
-                        <img src={blankImage} data-ani="fadein-5796 0.5s linear 1" data-id="5796" id="item5796" data-hidestart="1" className="pageItem hidden" alt="Infeksi" style={{left:'1158px',top:'372px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5796.png" />
+                        {/*<img src={blankImage} data-ani="fadein-5796 0.5s linear 1" data-id="5796" id="item5796" data-hidestart="1" className="pageItem hidden" alt="Infeksi" style={{left:'1158px',top:'372px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5796.png" />*/}
+                        <div data-ani="fadein-5796 0.5s linear 1" data-id="5796" id="item5796" data-hidestart="1" className="pageItem hidden" alt="Infeksi" style={{left:'1158px',top:'372px',mixBlendMode:'hard-light'}} >
+                            INFEKSI
+                        </div>
                         <img src={blankImage} data-ani="fadein-5818 0.5s linear 1" data-id="5818" id="item5818" data-hidestart="1" className="pageItem hidden" alt="Operasi" style={{left:'1384px',top:'317px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5818.png" />
                         {/*<img src={blankImage} data-ani="fadein-5840 0.5s linear 1" data-id="5840" id="item5840" data-hidestart="1" className="pageItem hidden" alt="Insomia" style={{left:'1186px',top:'796px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5840.png" />*/}
                         <div data-ani="fadein-5840 0.5s linear 1" data-id="5840" id="item5840" data-hidestart="1" className="pageItem hidden" alt="Insomia" style={{left:'1186px',top:'796px',mixBlendMode:'hard-light'}} >
                             INSOMNIA
                         </div>
-                        <img src={blankImage} data-ani="fadein-5862 0.5s linear 1" data-id="5862" id="item5862" data-hidestart="1" className="pageItem hidden" alt="Rawat inap" style={{left:'1250px',top:'610px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5862.png" />
+                        {/*<img src={blankImage} data-ani="fadein-5862 0.5s linear 1" data-id="5862" id="item5862" data-hidestart="1" className="pageItem hidden" alt="Rawat inap" style={{left:'1250px',top:'610px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5862.png" />*/}
+                        <div data-ani="fadein-5862 0.5s linear 1" data-id="5862" id="item5862" data-hidestart="1" className="pageItem hidden" alt="Rawat inap" style={{left:'1250px',top:'615px',mixBlendMode:'hard-light'}} >
+                            RAWAT INAP
+                        </div>    
                         {/*<img src={blankImage} data-ani="fadein-5884 0.5s linear 1" data-id="5884" id="item5884" data-hidestart="1" className="pageItem hidden" alt="Mudah lelah" style={{left:'1632px',top:'563px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5884.png" />*/}
                         <div data-ani="fadein-5884 0.5s linear 1" data-id="5884" id="item5884" data-hidestart="1" className="pageItem hidden" alt="Mudah lelah" style={{left:'1510px',top:'470px',mixBlendMode:'hard-light'}}>
                             MUDAH LELAH
                         </div>
-                        <img src={blankImage} data-ani="fadein-5906 0.5s linear 1" data-id="5906" id="item5906" data-hidestart="1" className="pageItem hidden" alt="Anemia" style={{left:'1217px',top:'923px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5906.png" />
-                        <img src={blankImage} data-ani="fadein-5928 0.5s linear 1" data-id="5928" id="item5928" data-hidestart="1" className="pageItem hidden" alt="Stigma sosial" style={{left:'1234px',top:'732px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5928.png" />
-                        <img src={blankImage} data-ani="fadein-5950 0.2s linear 1" data-id="5950" id="item5950" data-hidestart="1" className="pageItem hidden" alt="Fistula" style={{left:'1434px',top:'733px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5950.png" />
-                        <img src={blankImage} data-ani="fadein-5972 0.2s linear 1" data-id="5972" id="item5972" data-hidestart="1" className="pageItem hidden" alt="Penurunan berat badan" style={{left:'108px',top:'713px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5972.png" />
+                        {/*<img src={blankImage} data-ani="fadein-5906 0.5s linear 1" data-id="5906" id="item5906" data-hidestart="1" className="pageItem hidden" alt="Anemia" style={{left:'1217px',top:'923px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5906.png" />*/}
+                        <div data-ani="fadein-5906 0.5s linear 1" data-id="5906" id="item5906" data-hidestart="1" className="pageItem hidden" alt="Anemia" style={{left:'1217px',top:'931px',mixBlendMode:'hard-light'}} >
+                            ANEMIA
+                        </div>
+                        {/*<img src={blankImage} data-ani="fadein-5928 0.5s linear 1" data-id="5928" id="item5928" data-hidestart="1" className="pageItem hidden" alt="Stigma sosial" style={{left:'1234px',top:'732px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5928.png" />*/}
+                        <div data-ani="fadein-5928 0.5s linear 1" data-id="5928" id="item5928" data-hidestart="1" className="pageItem hidden" alt="Stigma sosial" style={{left:'1234px',top:'745px',mixBlendMode:'hard-light'}} >
+                            STIGMA<br />SOCIAL
+                        </div>
+                        {/*<img src={blankImage} data-ani="fadein-5950 0.2s linear 1" data-id="5950" id="item5950" data-hidestart="1" className="pageItem hidden" alt="Fistula" style={{left:'1434px',top:'733px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5950.png" />*/}
+                        <div  data-ani="fadein-5950 0.2s linear 1" data-id="5950" id="item5950" data-hidestart="1" className="pageItem hidden" alt="Fistula" style={{left:'1434px',top:'755px',mixBlendMode:'hard-light'}} >
+                            FISTULA
+                        </div>
+                        {/*<img src={blankImage} data-ani="fadein-5972 0.2s linear 1" data-id="5972" id="item5972" data-hidestart="1" className="pageItem hidden" alt="Penurunan berat badan" style={{left:'108px',top:'713px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5972.png" />*/}
+                        <div data-ani="fadein-5972 0.2s linear 1" data-id="5972" id="item5972" data-hidestart="1" className="pageItem hidden" alt="Penurunan berat badan" style={{left:'107px',top:'721px',mixBlendMode:'hard-light',textAlign:'right'}} >
+                            PENURUNAN<br />BERAT BADAN
+                        </div>
                         <img src={blankImage} data-ani="fadein-5994 0.2s linear 1" data-id="5994" id="item5994" data-hidestart="1" className="pageItem hidden" alt="Biaya pengobatan" style={{left:'50px',top:'601px',mixBlendMode:'hard-light'}} data-src="assets/images/item_5994.png" />
-                        <img src={blankImage} data-ani="fadein-6016 0.5s linear 1" data-id="6016" id="item6016" data-hidestart="1" className="pageItem hidden" alt="Diare kronis" style={{left:'369px',top:'577px',mixBlendMode:'hard-light'}} data-src="assets/images/item_6016.png" />
+                        {/*<img src={blankImage} data-ani="fadein-6016 0.5s linear 1" data-id="6016" id="item6016" data-hidestart="1" className="pageItem hidden" alt="Diare kronis" style={{left:'369px',top:'577px',mixBlendMode:'hard-light'}} data-src="assets/images/item_6016.png" />*/}
+                        <div data-ani="fadein-6016 0.5s linear 1" data-id="6016" id="item6016" data-hidestart="1" className="pageItem hidden" alt="Diare kronis" style={{left:'369px',top:'581px',mixBlendMode:'hard-light'}} >
+                            DIARE KRONIS
+                        </div>
                         <img src={blankImage} data-ani="fadein-6038 0.5s linear 1" data-id="6038" id="item6038" data-hidestart="1" className="pageItem hidden" alt="Perforasi usus" style={{left:'22px',top:'784px',mixBlendMode:'hard-light'}} data-src="assets/images/item_6038.png" />
-                        <img src={blankImage} data-ani="fadein-6060 0.5s linear 1" data-id="6060" id="item6060" data-hidestart="1" className="pageItem hidden" alt="Megakolon Toksik" style={{left:'354px',top:'873px',mixBlendMode:'hard-light'}} data-src="assets/images/item_6060.png" />
-                        <img src={blankImage} data-ani="fadein-6082 0.5s linear 1" data-id="6082" id="item6082" data-hidestart="1" className="pageItem hidden" alt="Efek samping terapi" style={{left:'390px',top:'619px',mixBlendMode:'hard-light'}} data-src="assets/images/item_6082.png" />
+                        {/*<img src={blankImage} data-ani="fadein-6060 0.5s linear 1" data-id="6060" id="item6060" data-hidestart="1" className="pageItem hidden" alt="Megakolon Toksik" style={{left:'354px',top:'873px',mixBlendMode:'hard-light'}} data-src="assets/images/item_6060.png" />*/}
+                        <div data-ani="fadein-6060 0.5s linear 1" data-id="6060" id="item6060" data-hidestart="1" className="pageItem hidden" alt="Megakolon Toksik" style={{left:'354px',top:'885px',mixBlendMode:'hard-light'}} >
+                            MEGAKOLON<br />TOKSIK
+                        </div>
+                        {/*<img src={blankImage} data-ani="fadein-6082 0.5s linear 1" data-id="6082" id="item6082" data-hidestart="1" className="pageItem hidden" alt="Efek samping terapi" style={{left:'390px',top:'619px',mixBlendMode:'hard-light'}} data-src="assets/images/item_6082.png" />*/}
+                        <div data-ani="fadein-6082 0.5s linear 1" data-id="6082" id="item6082" data-hidestart="1" className="pageItem hidden" alt="Efek samping terapi" style={{left:'390px',top:'626px',mixBlendMode:'hard-light'}} >
+                            EFEK SAMPING TERAPI
+                        </div>    
                         <div alt="Takeda Indonesia, 202" style={{left:'1885px',top:'913px'}} id="item6107" className="pageItem group ">
                             <img src={blankImage} alt="Takeda Indonesia, 2024" style={{left:'1px'}} id="item6127" className="pageItem " data-src="assets/images/item_6127.png" />
                             <div alt="Group" style={{top:'132px'}} id="item6130" className="pageItem group ">

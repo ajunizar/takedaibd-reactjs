@@ -27,6 +27,13 @@
 }
 
 @font-face {
+	font-family: 'NotoSans-Light';
+	src: url('../fonts/NotoSans-Light.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
 	font-family: 'NotoSans-LightItalic';
 	src: url('../fonts/NotoSans-LightItalic.ttf') format('truetype');
 	font-weight:normal;
@@ -39,6 +46,42 @@
 	font-weight:normal;
 	font-style:normal;
 }
+
+@font-face {
+	font-family: 'NotoSans-SemiBold';
+	src: url('../fonts/NotoSans-SemiBold.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'NotoSans-Bold';
+	src: url('../fonts/NotoSans-Bold.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'NotoSans-BoldItalic';
+	src: url('../fonts/NotoSans-BoldItalic.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'NotoSans-ExtraBoldItalic';
+	src: url('../fonts/NotoSans-ExtraBoldItalic.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: 'NotoSans-SemiBold';
+	src: url('../fonts/NotoSans-SemiBold.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
 
 #item475 {
 	font-family: 'Nunito-LightItalic';
@@ -86,7 +129,7 @@
 	width:500px !important;
 }
 
-#item85357aaa{
+#item11111{
 	font-family:"NotoSans-Regular";
 	height: 100px !important;
     width: 923px !important;
@@ -101,13 +144,98 @@
 	font-family: 'Nunito-LightItalic';
 	font-size:77pt;
 	line-height:127pt;
-	color:#f9e0c8;
+	color:#470000;
 }
 
 #item5884{
 	font-family: 'NotoSans-Black';
 	font-size:30pt;
 	line-height:45pt;
+	color:#470000;
+}
+
+#item6082{
+	font-family:'NotoSans-ExtraBoldItalic';
+	font-size:60px;
+	line-height:60px;
+	width:100px !important;
+	color:#470000;
+}
+
+#item5642{
+	font-family:'NotoSans-Black';
+	font-size:90pt;
+	line-height:70pt;
+	color:#470000;
+}
+
+#item5796{
+	font-family:'NotoSans-SemiBold';
+	font-size:40pt;
+	line-height:40pt;
+	color:#470000;
+}
+
+#item5752{
+	font-family:'NotoSans-LightItalic';
+	font-size:36pt;
+	line-height: 35pt;
+	color:#470000;
+}
+
+#item5862{
+	font-family:'NotoSans-Black';
+	font-size:45pt;
+	line-height:50pt;
+	color:#470000;
+}
+
+#item5928{
+	font-family:'NotoSans-Black';
+	font-size:34pt;
+	line-height:30pt;
+	color:#470000;
+}
+
+#item5906{
+	font-family:'NotoSans-Black';
+	font-size:42pt;
+	line-height:40pt;
+	color:#470000;
+}
+
+#item5950{
+	font-family:'NotoSans-Regular';
+	font-size:48pt;
+	line-height:40pt;
+	color:#470000;
+}
+
+#item5664{
+	font-family:'NotoSans-Bold';
+	font-size:76pt;
+	line-height:70pt;
+	color:#470000;
+}
+
+#item6060{
+	font-family:'NotoSans-Bold';
+	font-size:41pt;
+	line-height:41pt;
+	color:#470000;
+}
+
+#item5972{
+	font-family:'NotoSans-Black';
+	font-size:28pt;
+	line-height:30pt;
+	color:#470000;
+}
+
+#item6016{
+	font-family:'NotoSans-Black';
+	font-size:30pt;
+	line-height:30pt;
 	color:#470000;
 }
 
@@ -4232,6 +4360,14 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	100% {opacity:1;}
 }
 @-webkit-keyframes fadein-5421 {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@keyframes fadein-11111 {
+	0% {opacity:0;}
+	100% {opacity:1;}
+}
+@-webkit-keyframes fadein-11111 {
 	0% {opacity:0;}
 	100% {opacity:1;}
 }

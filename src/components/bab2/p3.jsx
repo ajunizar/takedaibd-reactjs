@@ -38,7 +38,7 @@ function Bab2P3() {
         <div >
             <ul className="pages" id="slider">
                 <li className="page" data-name="11">
-                    <div className="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" data-ani-load="go({target:this},[{n:1,id:4889,act:'play'},{del:3,n:1,id:5421,act:'play'},{del:6,n:1,id:4981,act:'play'},{n:1,id:5003,act:'play'},{n:1,id:144466,act:'play'},{del:1,n:1,id:144936,act:'play'},{del:5,n:1,id:151135,act:'play'},{del:2.5,n:1,id:144935,act:'play'},{del:4.5,n:1,id:144934,act:'play'},{del:6,n:1,id:144933,act:'play'},{del:4,n:1,id:144932,act:'play'},{del:4,n:1,id:144931,act:'play'},{del:1.5,n:1,id:144939,act:'play'},{del:3,n:1,id:144930,act:'play'},{del:5,n:1,id:144929,act:'play'},{del:4,n:1,id:144928,act:'play'}], 'pageload');" style={{width:'1920px',height:'1080px'}}>
+                    <div className="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" data-ani-load="go({target:this},[{n:1,id:4889,act:'play'},{del:3,n:1,id:5421,act:'play'},{del:1,n:1,id:11111,act:'play'},{del:4,n:1,id:4981,act:'play'},{n:1,id:5003,act:'play'},{n:1,id:144466,act:'play'},{del:1,n:1,id:144936,act:'play'},{del:5,n:1,id:151135,act:'play'},{del:2.5,n:1,id:144935,act:'play'},{del:4.5,n:1,id:144934,act:'play'},{del:6,n:1,id:144933,act:'play'},{del:4,n:1,id:144932,act:'play'},{del:4,n:1,id:144931,act:'play'},{del:1.5,n:1,id:144939,act:'play'},{del:3,n:1,id:144930,act:'play'},{del:5,n:1,id:144929,act:'play'},{del:4,n:1,id:144928,act:'play'}], 'pageload');" style={{width:'1920px',height:'1080px'}}>
                         <div id="item144466" data-ani="flyinfromleft-144466 1s cubic-bezier(.2,.6,.35,1) 1" data-id="144466" data-hidestart="1" className="pageItem hidden" alt="1 block">&nbsp;</div>
                         <div data-ani="flyinfromleft-151135 1s cubic-bezier(.2,.6,.35,1) 1" data-id="151135" id="item151135" data-hidestart="1" className="pageItem group hidden" alt="5 block" style={{left:'678px',top:'324px',width:' 1142px',height:'353px'}}>
                             <div id="item144662" alt="Rectangle" className="pageItem ">&nbsp;</div>
@@ -67,6 +67,11 @@ function Bab2P3() {
                         </div>
                         <img src={blankImage} data-ani="fadein-4981 1s ease-in-out 1" data-id="4981" id="item4981" data-hidestart="1" className="pageItem hidden" alt="Respons Peserta" style={{left:'710px',top:'198px'}} data-src="assets/images/item_4981.png" />
                         <img src={blankImage} data-ani="fadein-5421 1s linear 1" data-id="5421" id="item5421" data-hidestart="1" className="pageItem hidden" alt="Tujuan survei ini adalah untuk mendapatkan perspektif secara internasional mengenai dampak IBD terhadap kehidupan pas..." style={{left:'100px',top:'588px'}} data-src="assets/images/item_5421.png" />
+                        <div data-ani="fadein-11111 0.5s ease-in-out 1" data-id="11111" id="item11111" data-hidestart="1" className="pageItem hidden" alt="Sound123" style={{width:'0px',height:'0px'}}>
+                        Survei online diselesaikan oleh 4670 pasien IBD dari 25 negara (terinklusi dalam penelitian). Diantaranya 62% responden menderita PC, 33% KU, 
+                        dan sisanya adalah IBD tipe lain atau diagnosis belum terkonfirmasi. Responden : 66% Perempuan, 33% laki-laki, dan sisanya tidak menyatakan. 
+                        Mayoritas responden berusia 25-44 tahun.
+                        </div>
                         <div data-ani="fadein-144930 0.5s ease-in-out 1" data-id="144930" id="item144930" data-hidestart="1" className="pageItem group hidden" alt="7" style={{left:'707px',top:'697px',width:' 1077px',height:'30px'}}>
                             <img src={blankImage} alt="Merasa bahwa IBD secara negatif memengaruhi performa dalam pendidikan" style={{top:'4px'}} id="item144615" className="pageItem " data-src="assets/images/item_144615.png" />
                             <img src={blankImage} alt="45%" style={{left:'989px'}} id="item144638" className="pageItem " data-src="assets/images/item_144638.png" />
@@ -78,12 +83,7 @@ function Bab2P3() {
                         <div data-ani="fadein-144929 0.5s ease-in-out 1" data-id="144929" id="item144929" data-hidestart="1" className="pageItem group hidden" alt="8" style={{left:'707px',top:'769px',width:' 1077px',height:'30px'}}>
                             <img src={blankImage} alt="Merasa bahwa IBD menghalangi penderitanya dalam membangun suatu hubungan erat" style={{top:'4px'}} id="item144808" className="pageItem " data-src="assets/images/item_144808.png" />
                             <img src={blankImage} alt="35%" style={{left:'989px'}} id="item144831" className="pageItem " data-src="assets/images/item_144831.png" />
-                        </div>
-                        <div id="item85357aaa" className="pageItem" alt="Sound">
-                        Survei online diselesaikan oleh 4670 pasien IBD dari 25 negara (terinklusi dalam penelitian). Diantaranya 62% responden menderita PC, 33% KU, 
-                        dan sisanya adalah IBD tipe lain atau diagnosis belum terkonfirmasi. Responden : 66% Perempuan, 33% laki-laki, dan sisanya tidak menyatakan. 
-                        Mayoritas responden berusia 25-44 tahun.
-                        </div>
+                        </div>             
                         <div id="item85357" className="pageItem" style={{height:'60px',width:'60px',left:'846px',top:'1002px'}} alt="Sound">
                             <audio data-id="85357" className="mejs-no-controls" data-overlap="1">
                                 <source type="audio/mp3" src="assets/media/page 10-1.mp3" />
