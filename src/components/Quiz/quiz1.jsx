@@ -153,10 +153,10 @@ function Quiz1() {
 
                 // Step 2: Convert the current top value to a number by removing the 'px' unit
                 var currentTopNumber = parseInt(currentTop, 10);
-                console.log(currentTopNumber);
+                //console.log(currentTopNumber);
                 // Add 50px to the current top position
-                var newTop = currentTopNumber + 171;
-                console.log(newTop);
+                var newTop = currentTopNumber - 20;
+                //console.log(newTop);
                 // Set the new top position dynamically
                 jQuery(this).css('top', newTop + 'px');
             });
@@ -176,7 +176,7 @@ function Quiz1() {
         <div >
             <ul className="pages" id="slider">
                 <li className="page" data-name="52">
-                    <div className="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" data-ani-load="go({target:this},[{n:1,id:185040,act:'play'},{n:1,link:1,id:186195,act:'play'},{n:1,link:1,id:186193,act:'play'},{n:1,link:1,id:185016,act:'play'},{n:1,id:184590,sn:1,act:'play'},{n:1,link:1,id:186197,act:'play'},{n:1,link:1,id:186199,act:'play'},{n:1,link:1,id:184993,act:'play'},{n:1,id:184591,sn:1,act:'play'},{n:1,link:1,id:186201,act:'play'},{n:1,link:1,id:186203,act:'play'},{n:1,link:1,id:184831,act:'play'},{n:1,id:184592,sn:1,act:'play'},{n:1,link:1,id:186252,act:'play'},{n:1,link:1,id:186205,act:'play'},{n:1,link:1,id:184924,act:'play'},{n:1,id:184594,sn:1,act:'play'},{n:1,link:1,id:186209,act:'play'},{n:1,link:1,id:186207,act:'play'},{n:1,link:1,id:184900,act:'play'},{n:1,id:184595,sn:1,act:'play'},{n:1,link:1,id:186211,act:'play'},{n:1,link:1,id:186213,act:'play'},{n:1,link:1,id:184877,act:'play'},{n:1,id:184596,sn:1,act:'play'},{n:1,link:1,id:186215,act:'play'},{n:1,link:1,id:186217,act:'play'},{n:1,link:1,id:184854,act:'play'},{n:1,id:184597,sn:1,act:'play'},{del:5,n:1,link:1,id:187089,act:'play'},{n:1,id:184828,sn:1,act:'play'},{del:5.5,n:1,link:1,id:187090,act:'play'},{n:1,id:184820,sn:1,act:'play'}], 'pageload');" style={{ width: '1920px', height: '1280px' }}>
+                    <div className="page-scale-wrap mq-none mq-default" role="region" data-layout-name="undefined" data-ani-load="go({target:this},[{n:1,id:185040,act:'play'},{n:1,link:1,id:186195,act:'play'},{n:1,link:1,id:186193,act:'play'},{n:1,link:1,id:185016,act:'play'},{n:1,id:184590,sn:1,act:'play'},{n:1,link:1,id:186197,act:'play'},{n:1,link:1,id:186199,act:'play'},{n:1,link:1,id:184993,act:'play'},{n:1,id:184591,sn:1,act:'play'},{n:1,link:1,id:186201,act:'play'},{n:1,link:1,id:186203,act:'play'},{n:1,link:1,id:184831,act:'play'},{n:1,id:184592,sn:1,act:'play'},{n:1,link:1,id:186252,act:'play'},{n:1,link:1,id:186205,act:'play'},{n:1,link:1,id:184924,act:'play'},{n:1,id:184594,sn:1,act:'play'},{n:1,link:1,id:186209,act:'play'},{n:1,link:1,id:186207,act:'play'},{n:1,link:1,id:184900,act:'play'},{n:1,id:184595,sn:1,act:'play'},{n:1,link:1,id:186211,act:'play'},{n:1,link:1,id:186213,act:'play'},{n:1,link:1,id:184877,act:'play'},{n:1,id:184596,sn:1,act:'play'},{n:1,link:1,id:186215,act:'play'},{n:1,link:1,id:186217,act:'play'},{n:1,link:1,id:184854,act:'play'},{n:1,id:184597,sn:1,act:'play'},{del:5,n:1,link:1,id:187089,act:'play'},{n:1,id:184828,sn:1,act:'play'},{del:5.5,n:1,link:1,id:187090,act:'play'},{n:1,id:184820,sn:1,act:'play'}], 'pageload');" style={{ width: '1920px', height: '1080px' }}>
                         <div id="item264636" className="pageItem" style={{ height: '60px', width: '60px', left: '26px', top: '164px' }} alt="Sound">
                             <audio data-id="264636" className="mejs-no-controls" data-autoplay="1" data-autodelay="0" data-overlap="1">
                                 <source type="audio/mp3" src="assets/media/Quiz 1 FULL.mp3" />
@@ -380,25 +380,25 @@ function Quiz1() {
                             </div>
                         </button>
                         <div id="item184622" alt="Rectangle" className="pageItem ">&nbsp;</div>
-                        <img src={blankImage} data-ani="flyinfromright-184820 1s cubic-bezier(.2,.6,.35,1) 1" data-id="184820" id="item184820" data-hidestart="1" className="pageItem hidden" alt="Rectangle" style={{ left: '1477px', top: '460px' }} data-src="assets/images/item_184820.png" />
-                        <img src={blankImage} data-ani="flyinfromleft-184828 1s cubic-bezier(.2,.6,.35,1) 1" data-id="184828" id="item184828" data-hidestart="1" className="pageItem hidden" alt="Rectangle" style={{ top: '460px' }} data-src="assets/images/item_184828.png" />
+                        <img src={blankImage} data-ani="flyinfromright-184820 1s cubic-bezier(.2,.6,.35,1) 1" data-id="184820" id="item184820" data-hidestart="1" className="pageItem hidden" alt="Rectangle" style={{ left: '1477px', top: '340px' }} data-src="assets/images/item_184820.png" />
+                        <img src={blankImage} data-ani="flyinfromleft-184828 1s cubic-bezier(.2,.6,.35,1) 1" data-id="184828" id="item184828" data-hidestart="1" className="pageItem hidden" alt="Rectangle" style={{ top: '340px' }} data-src="assets/images/item_184828.png" />
                         <img src={blankImage} data-ani="flyinfrombottom-184831 0.2s cubic-bezier(.2,.6,.35,1) 1" data-id="184831" id="item184831" data-hidestart="1" className="pageItem hidden kanooAddTop" alt="Kontinu " style={{ left: '800px', top: '480px' }} data-src="assets/images/item_184831.png" />
                         <img src={blankImage} data-ani="flyinfrombottom-184854 0.2s cubic-bezier(.2,.6,.35,1) 1" data-id="184854" id="item184854" data-hidestart="1" className="pageItem hidden kanooAddTop" alt="Peradangan mukosa " style={{ left: '800px', top: '822px' }} data-src="assets/images/item_184854.png" />
                         <img src={blankImage} data-ani="flyinfrombottom-184877 0.2s cubic-bezier(.2,.6,.35,1) 1" data-id="184877" id="item184877" data-hidestart="1" className="pageItem hidden kanooAddTop" alt="Kolon dan rektum " style={{ left: '800px', top: '737px' }} data-src="assets/images/item_184877.png" />
                         <img src={blankImage} data-ani="flyinfrombottom-184900 0.2s cubic-bezier(.2,.6,.35,1) 1" data-id="184900" id="item184900" data-hidestart="1" className="pageItem hidden kanooAddTop" alt="Peradangan transmural " style={{ left: '754px', top: '652px' }} data-src="assets/images/item_184900.png" />
                         <img src={blankImage} data-ani="flyinfrombottom-184924 0.2s cubic-bezier(.2,.6,.35,1) 1" data-id="184924" id="item184924" data-hidestart="1" className="pageItem hidden kanooAddTop" alt="Perdarahan rektum " style={{ left: '800px', top: '563px' }} data-src="assets/images/item_184924.png" />
-                        <div data-ani="flyinfromright-187090 1s cubic-bezier(.2,.6,.35,1) 1" data-id="187090" id="item187090" data-hidestart="1" className="pageItem group hidden" alt="Penyakit Crohn (PC" style={{ left: '1434px', top: '415px', width: ' 486px', height: '84px' }}>
+                        <div data-ani="flyinfromright-187090 1s cubic-bezier(.2,.6,.35,1) 1" data-id="187090" id="item187090" data-hidestart="1" className="pageItem group hidden" alt="Penyakit Crohn (PC" style={{ left: '1434px', top: '295px', width: ' 486px', height: '84px' }}>
                             <div id="item184624" alt="Rectangle" className="pageItem ">&nbsp;</div>
                             <img src={blankImage} alt="Penyakit Crohn (PC)" style={{ left: '43px', top: '16px' }} id="item184947" className="pageItem " data-src="assets/images/item_184947.png" />
                         </div>
-                        <div data-ani="flyinfromleft-187089 1s cubic-bezier(.2,.6,.35,1) 1" data-id="187089" id="item187089" data-hidestart="1" className="pageItem group hidden" alt="Kolitis Ulseratif (KU)" style={{ top: '415px', width: ' 486px', height: '84px' }}>
+                        <div data-ani="flyinfromleft-187089 1s cubic-bezier(.2,.6,.35,1) 1" data-id="187089" id="item187089" data-hidestart="1" className="pageItem group hidden" alt="Kolitis Ulseratif (KU)" style={{ top: '295px', width: ' 486px', height: '84px' }}>
                             <img src={blankImage} alt="Rectangle" id="item184626" className="pageItem " data-src="assets/images/item_184626.png" />
                             <img src={blankImage} alt="Kolitis Ulseratif (KU) " style={{ left: '37px', top: '16px' }} id="item184970" className="pageItem " data-src="assets/images/item_184970.png" />
                         </div>
                         <img src={blankImage} data-ani="flyinfrombottom-184993 0.2s cubic-bezier(.2,.6,.35,1) 1" data-id="184993" id="item184993" data-hidestart="1" className="pageItem hidden kanooAddTop" alt="Skipped lession " style={{ left: '800px', top: '395px' }} data-src="assets/images/item_184993.png" />
                         <img src={blankImage} data-ani="flyinfrombottom-185016 0.2s cubic-bezier(.2,.6,.35,1) 1" data-id="185016" id="item185016" data-hidestart="1" className="pageItem hidden kanooAddTop" alt="Terjadi dimana saja " style={{ left: '790px', top: '309px' }} data-src="assets/images/item_185016.png" />
                         <img src={blankImage} data-ani="fadein-185040 1s linear 1" data-id="185040" id="item185040" data-hidestart="1" className="pageItem hidden" alt="KUIS 1" style={{ left: '712px', top: '157px' }} data-src="assets/images/item_185040.png" />
-                        <img src={blankImage} data-ani="fadein-1850400 5s linear 1" data-id="1850400" id="item1850400" data-hidestart="1" className="pageItem hidden" alt="KUIS 1" style={{ left: '366px', top: '273px' }} data-src="assets/images/Kuis1_question.png" />
+                        <img src={blankImage} data-ani="fadein-1850400 5s linear 1" data-id="1850400" id="item1850400" data-hidestart="1" className="pageItem hidden" alt="KUIS 1" data-src="assets/images/Kuis1_question.png" />
                         <button data-ani="flyinfrombottom-190456 1s cubic-bezier(.2,.6,.35,1) 1" data-id="190456" id="item190456" data-hidestart="1" className="pageItem hidden" name="jawaban benar" aria-label="jawaban benar">
                             <div className="pageItem state btn-off">
                                 <div alt="Oval" style={{ top: '53px' }} id="item189952" className="pageItem ">
