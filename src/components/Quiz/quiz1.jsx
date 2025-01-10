@@ -153,10 +153,10 @@ function Quiz1() {
 
                 // Step 2: Convert the current top value to a number by removing the 'px' unit
                 var currentTopNumber = parseInt(currentTop, 10);
-                console.log(currentTopNumber);
+                //console.log(currentTopNumber);
                 // Add 50px to the current top position
                 var newTop = currentTopNumber - 20;
-                console.log(newTop);
+                //console.log(newTop);
                 // Set the new top position dynamically
                 jQuery(this).css('top', newTop + 'px');
             });
