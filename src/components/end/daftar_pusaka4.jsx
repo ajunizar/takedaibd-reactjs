@@ -58,6 +58,7 @@ function DaftarPusaka4() {
                         <img src={blankImage} alt="PSC: Primary Sclerosing Cholangitis TB: Tuberkulosis TFC: Tofacitinib Th1: T helper 1 Th17: T helper 17 TNF a: Tumor ..." style={{ left: '1587px', top: '245px' }} id="item57958" className="pageItem " data-src="assets/images/item_57958.png" />
                         <img src={blankImage} alt="Kelas Rekomendasi: Kuat: Rekomendasi saat ini dapat diaplikasikan pada sebagian besar kondisi IBD. Efek menguntungkan..." style={{ left: '100px', top: '605px' }} id="item57837" className="pageItem " data-src="assets/images/item_57837.png" />
                         <img src={blankImage} alt="Tingkat Bukti: Kualitas tinggi: Penelitian lanjutan hampir pasti tidak akan mengubah keyakinan dokter mengenai predik..." style={{ left: '100px', top: '709px' }} id="item57862" className="pageItem " data-src="assets/images/item_57862.png" />
+                        <div id="item541" className="pageItem " style={{left:'28px ',top:'1042px ',color:'black'}}>VV-MEDMAT-114566 // 12 Dec 24</div>
                         <button data-id="180933" name="icon next 57" onClick={handleOnClickGoToDaftarPusaka3} aria-label="icon next 57" id="item180933" className="pageItem has-down has-on ">
                             <div className="pageItem state btn-off">
                                 <div alt="Oval" id="item180927" className="pageItem ">

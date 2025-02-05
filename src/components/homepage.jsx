@@ -57,7 +57,8 @@ function Homepage() {
                         </div>
                         <img src={blankImage} data-ani="fadein-497 1s linear 1" data-id="497" id="item497" data-hidestart="1" className="pageItem hidden" alt="IBD 01" style={{left:'100px',top:'100px'}} data-src="assets/images/item_497.png" />
                         <img src={blankImage} data-ani="flyinfromleft-519 1s cubic-bezier(.2,.6,.35,1) 1" data-id="519" id="item519" data-hidestart="1" className="pageItem hidden" alt="Kenali Inflammatory Bowel Disease (IBD) Lebih Dekat" style={{left:'93px',top:'168px'}} data-src="assets/images/item_519.png" />
-                        <img src={blankImage} alt="VV MED 11224 // 25 Oct 23" style={{left:'28px ',top:'1042px '}} id="item541" className="pageItem " data-src="assets/images/item_541.png" />
+                        {/*<img src={blankImage} alt="VV MED 11224 // 25 Oct 23" style={{left:'28px ',top:'1042px '}} id="item541" className="pageItem " data-src="assets/images/item_541.png" />*/}
+                        <div id="item541" className="pageItem " style={{left:'28px ',top:'1042px '}}>VV-MEDMAT-114566 // 12 Dec 24</div>
                         <div alt="Takeda Indonesia, 202" style={{left:'1753px',top:'1039px '}} id="item544" className="pageItem group ">
                             <img src={blankImage} alt="Takeda Indonesia, 2024" style={{left:'20px',top:'1px'}} id="item564" className="pageItem " data-src="assets/images/item_564.png" />
                             <div alt="Group" id="item567" className="pageItem group ">

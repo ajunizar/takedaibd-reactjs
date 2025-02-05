@@ -16081,6 +16081,12 @@ html[data-dir="rtl"] #viewer-thumb-wrap { direction:rtl; }
 	top:964px !important;
 }
 
+#item541{
+	color:#fff;
+	font-family:'NotoSans-LightItalic';
+	font-size:15px;
+}
+
 @keyframes fadein-207869 {
 	0% {opacity:0;}
 	100% {opacity:1;}
